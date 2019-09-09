@@ -4,5 +4,6 @@ module.exports = {
   URL: process.env.BASE_URL || "http://localhost:3003",
   MONGODB_URI:
     process.env.MONGODB_URI ||
-    "mongodb://restify_user:sda677H8fas#@ds015770.mlab.com:15770/order_queue_api"
+    "mongodb://restify_user:sda677H8fas#@ds015770.mlab.com:15770/order_queue_api",
+  JWT_SECRET: process.env.JWT_SECRET || "secret1"
 };
